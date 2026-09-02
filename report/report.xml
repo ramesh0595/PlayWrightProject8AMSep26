@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="21.434" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-26T03:08:40.320Z">
+  <testcase classname="To validate the login functionallity of facebook application" name="Login-Invalid To validate the login functionallity with Invalid Credentials" time="5.75">
+    <system-out><![CDATA[Given The User should be in login page......................................passed
+When The User has to fill username "ramesh@gmail.com" and password "12345678"..passed
+And The User has to click the login button..................................passed
+Then The User should be navigated to Invalid login page.....................passed]]></system-out>
+  </testcase>
+  <testcase classname="To validate the login functionallity of facebook application" name="Login-Vaild To validate the login functionallity with Invalid Credentials" time="6.323">
+    <system-out><![CDATA[Given The User should be in login page......................................passed
+When The User has to fill username "kumar@gmail.com" and password "513425523"..passed
+And The User has to click the login button..................................passed
+Then The User should be navigated to Invalid login page.....................passed]]></system-out>
+  </testcase>
+  <testcase classname="To validate the login functionallity of facebook application" name="Register-Invalid To validate the registration functionallity" time="4.967">
+    <system-out><![CDATA[Given The User should be in login page......................................passed
+When The user has to click the create new account button....................passed
+And The user has to fill the firstname,lastname and other details...........passed
+And The user has to click the submit button.................................passed
+Then The user should be get successfully registered message.................passed]]></system-out>
+  </testcase>
+  <testcase classname="To validate the login functionallity of facebook application" name="Register-Vaild To validate the registration functionallity" time="4.37">
+    <system-out><![CDATA[Given The User should be in login page......................................passed
+When The user has to click the create new account button....................passed
+And The user has to fill the firstname,lastname and other details...........passed
+And The user has to click the submit button.................................passed
+Then The user should be get successfully registered message.................passed]]></system-out>
+  </testcase>
+</testsuite>

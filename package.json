@@ -1,0 +1,25 @@
+{
+  "name": "cucumberplaywright8amaugust26",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"cucumber-js --format rerun:@rerun.txt",
+    "rerun":"cucumber-js --config rerun.js @rerun.txt",
+    "test:retry":"npm run test || npm run rerun"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.11.0",
+    "allure-js-commons": "^3.11.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}
